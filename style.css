@@ -38,13 +38,14 @@ select:focus{
     outline: none !important;
   box-shadow: none !important;
 }
-.main-card{
-    /* height: 60%; */
+.main-card {
+    height: 60% !important;
     background-color: #afdda654;
     border: 5px solid red;
     width: 18%;
     z-index: 1010;
     position: relative;
+    margin-top: 117px !important;
 }
 .main-card h1{
     color: #f14662;
@@ -102,10 +103,10 @@ select:focus{
 }
 
 @media screen and (max-width:768px){
-    .main-card{
-        width: 100% !important;
-        height: 200%;
-        margin-top: 0 !important;
+    .main-card {
+        width: 96% !important;
+        height: 100vh !important;
+        margin-top: 12px !important;
     }
     .buttons {
         position: absolute;
