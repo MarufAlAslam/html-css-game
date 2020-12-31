@@ -1,0 +1,102 @@
+body{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Luckiest Guy', cursive;
+}
+button:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+
+input:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+
+textarea:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+a:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+select:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+.main-card{
+    /* height: 60%; */
+    background-color: #afdda654;
+    border: 5px solid red;
+    width: 18%;
+    z-index: 1010;
+    position: relative;
+}
+.main-card h1{
+    color: #f14662;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.text-left.mate.p-0 {
+    font-size: 65px;
+    rotate: -1deg;
+    margin-bottom: -15px;
+    margin-left: 3px;
+}
+.text-left.matika.p-0 {
+    margin-bottom: 0;
+    font-size: 45px;
+    rotate: -1deg;
+    margin-left: 3px;
+}
+.big2 {
+    font-size: 130px;
+    text-align: left !important;
+    position: relative;
+    left: -30px;
+    top: -20px;
+    color: #f1af46 !important;
+}
+.w-50 {
+    width: 55% !important;
+}
+.w-50.teacher {
+    position: relative;
+    top: -50px;
+    margin-bottom: 35px;
+}
+.btn.btn-info.btn-block.text-white.d-block.w-100 {
+    background-color: #2bcaaa !important;
+    padding: 0px 0 !important;
+    border: 1px solid black;
+    margin: 5px 0;
+    font-size: 35px;
+}
+.btn.btn-warning.btn-block.text-white.d-block.w-100 {
+    background-color: #ef7b47;
+    border: 1px solid black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.buttons {
+    position: absolute;
+    bottom: 5px;
+    margin: 0 15px;
+    left: 50%;
+    width: 95%;
+    transform: translate(-57%);
+}
