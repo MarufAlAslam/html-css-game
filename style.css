@@ -107,4 +107,12 @@ select:focus{
         height: 200%;
         margin-top: 0 !important;
     }
+    .buttons {
+        position: absolute;
+        bottom: 5px;
+        margin: 0px 42px;
+        left: 50%;
+        width: 97%;
+        transform: translate(-57%);
+    }
 }
