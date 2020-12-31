@@ -38,6 +38,14 @@ select:focus{
     outline: none !important;
   box-shadow: none !important;
 }
+.main-card{
+    height: 100% !important;
+    background-color: #afdda654;
+    border: 5px solid red;
+    width: 18%;
+    z-index: 1010;
+    position: relative;
+}
 .main-card h1{
     color: #f14662;
     -webkit-text-stroke-width: 1px;
