@@ -39,7 +39,7 @@ select:focus{
   box-shadow: none !important;
 }
 .main-card{
-    /* height: 60%; */
+    height: 100% !important;
     background-color: #afdda654;
     border: 5px solid red;
     width: 18%;
